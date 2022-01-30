@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Signika&display=swap');
+body{
+    background-color: rgb(7, 5, 5);
+    min-height: 100vh;
+    position: relative;
+}
+
+.header{
+    background-image: url(./images/cake-header.png);
+    padding: 2%;
+    height: 820px;
+  
+    
+} 
+
+/* Navbar */
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color:rgb(17, 8, 8) !important;
+    margin: 0 20px;
+    
+}
+.navbar{
+    background-color: rgb(194, 186, 186) !important;
+}
+.nav-link a{
+    font-size: 16px;
+    font-weight: 1000;
+}
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color:rgb(7, 0, 5) !important;
+    font-family: 'Pacifico', cursive;
+    
+  }
+
+
+  .nav-item {
+    padding: 0 18px;
+   
+  }
+.navbar-brand:hover{
+    color: rgb(252, 5, 5)!important;
+}
+.nav-link:hover{
+    color: rgb(236, 33, 33)!important;
+}
+
+.header-text{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(245, 245, 245);
+    font-family: 'Pacifico', cursive;
+    line-height: 4;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    
+
+
+}
+.header-text h1{
+    margin-top: 70px;
+    line-height: 2;
+    
+}
+.header-text h2{
+    color: whitesmoke; 
+    
+}
+
+button{
+    font-family: sans-serif;
+    margin: 15px 0 ;
+}
+/* Flavour */
+.flavour ,.varieties{
+    padding: 1%;
+    
+}
+.flavour,.varieties,.carousel-title h1,h2 ,.pricing-title ,.pricing-text{
+    font-family: 'Pacifico', cursive;
+    color:rgb(209, 111, 176);
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.flavour-box,.variety-box,.pricing-box{
+    padding: 20px;
+    margin-bottom: 20px;
+
+   
+}
+
+.flavour-box img ,.variety-box img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.flavour-box,.variety-box h2{
+    margin-top: 20px;
+}
+
+.var-row , .fla-row ,.pri-row{
+    padding: 2%;
+    margin-left: 6%;
+}
+
+.carousel-caption {
+    font-weight: 500;
+    color: rgb(0, 0, 255)!important;
+   
+} 
+.card-body{
+    background-color: black !important;
+    color: blanchedalmond !important;
+    text-align: center;
+}
+
+.footer-text{
+    text-align: center;
+    color: cornsilk;
+}
+.footer-text p,span{
+    color: darkgrey;
+    font-weight: 200;
+}
+.footer-text p{
+    margin-top: 40px;
+}
+/* .carousel-item{
+    padding:0% 17% 17% 17%;
+    margin-bottom: 7%;
+}
+.carousel-indicators{
+    margin-bottom: 12%;
+}  */
+/* .carousel-item img{
+    height: 485px;
+    
+} */
+/* Responsive */
+@media (max-width: 512px) {
+    .header{
+        background-image: url(./images/cake-header-mbl.png);
+        height: 619px;
+        overflow-x: hidden;
+    }
+   .header-text{
+       margin-top: 50%;
+   }
+   .carousel-caption {
+    font-size: 0.8rem;
+} 
+}
+
+@media (max-width: 745px){
+    .pricing-box ,.card{
+        text-align: center;
+    }
+    .pricing-box{
+        margin-left: 5%;
+    }
+  
+}
